@@ -1,4 +1,5 @@
 public class assignement {
+    @SuppressWarnings("UnusedAssignment")
     public static void main(String[] args) {
         int a=50;
         int b=5;
@@ -7,7 +8,7 @@ public class assignement {
         System.out.println(b-=a);
         System.out.println(b*=a);
         System.out.println(b/=a);
-        System.out.println(b%=a);
+        System.out.println(b %=a);
     }
     
 }
