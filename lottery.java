@@ -14,7 +14,7 @@ public class lottery {
             if ( n>=300 && n<=380){
                 System.out.println("Model: M1 Mac");
             }
-            if ( n>380 && n<=460){
+            if ( n>=380 && n<=460){
                 System.out.println("Model: M2 Mac");
             }
         }
