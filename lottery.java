@@ -14,7 +14,7 @@ public class lottery {
             if ( n>=300 && n<=380){
                 System.out.println("Model: M1 Mac");
             }
-            if ( n>=380 && n<=460){
+            if ( n>380 && n<=460){
                 System.out.println("Model: M2 Mac");
             }
         }
@@ -23,7 +23,7 @@ public class lottery {
             if ( n>=200 && n<=240){
                 System.out.println("Flavour: Chilli Flavour");
             }
-            if ( n>=240 && n<=280){
+            if ( n>240 && n<=280){
                 System.out.println("Flavour: Onion Flavour");
             }
         }
@@ -32,7 +32,7 @@ public class lottery {
             if ( n>=1100 && n<=1300){
                 System.out.println("Brand: Avon Cycle");
             }
-            if ( n>=1300 && n<=1500){
+            if ( n>1300 && n<=1500){
                 System.out.println("Brand: Hero Cycle");
             }
         }
@@ -41,7 +41,7 @@ public class lottery {
             if ( n>=50 && n<=65){
                 System.out.println("Model: Bullet 350");
             }
-            if ( n>=65 && n<=80){
+            if ( n>65 && n<=80){
                 System.out.println("Model: Bullet 650");
             }
         }
