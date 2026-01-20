@@ -10,21 +10,19 @@ public class pnl {
         int s = sc.nextInt();
         int profit;
         int loss;
-
         if (s>c){
             System.out.println("you Made a Profit !! ");
             profit = s-c;
-            System.out.println("Profit:"+profit);
+            System.out.println("Profit: "+profit);
 
         }
         else if (c>s){
             System.out.println("you Incurred a Loss !! ");
             loss = c-s;
-            System.out.println("Loss:"+loss);
+            System.out.println("Loss: "+loss);
         }
         else{
             System.out.println("you are at Break-even !!! no profit no loss");
         }
-    }
-    
+    }   
 }
