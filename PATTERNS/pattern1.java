@@ -1,8 +1,10 @@
-public class pattern3 {
+package PATTERNS;
+
+public class pattern1 {
     public static void main(String[] args) {
         int n=5;
         int r=1;
-        int s=5;
+        int s=n;
         while (r<=n){
             int i=1;
             while (i<=s){
@@ -10,8 +12,10 @@ public class pattern3 {
                 i++;
             }
             r++;
-            s--;
             System.out.println();
-        } 
+        }
+
     }
+    
+    
 }
