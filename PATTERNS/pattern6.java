@@ -1,25 +1,23 @@
 package PATTERNS;
 public class pattern6 {
     public static void main(String[] args) {
-        int n=5;
-        int r=1;
-        int s=5;
-        int t=0;
-        while (r<=n){
-            int i=1;
-            while (t<=r) { 
-                System.out.print("   ");
-                t++;
+        int n = 5;
+        int i = 0; 
+
+        while (i < n) {
+            
+            int j = 0;
+            while (j < 2 * i) {
+                System.out.print(" _ ");
+                j++;
             }
-            while (i<=s){
+            int k = 0;
+            while (k < n - i) {
                 System.out.print(" * ");
-                i++;
+                k++;
             }
-            r++;
-            s++;
-            
-            
             System.out.println();
-        } 
+            i++;
+        }
     }
 }
