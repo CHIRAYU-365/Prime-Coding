@@ -1,6 +1,7 @@
 import java.util.Scanner;
 public class vowel {
      public static void main(String[] args) {
+        @SuppressWarnings("unused")
         Scanner sc =new Scanner(System.in);
         System.out.println("enter a character : ");
         char ch = 'a';
