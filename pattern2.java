@@ -1,6 +1,5 @@
-package PATTERNS;
 
-public class pattern1 {
+public class pattern2 {
     public static void main(String[] args) {
         int n=5;
         int r=1;
@@ -9,13 +8,10 @@ public class pattern1 {
             int i=1;
             while (i<=s){
                 System.out.print(" * ");
-                i++;
+                i--;
             }
             r++;
             System.out.println();
-        }
-
+        } 
     }
-    
-    
 }
