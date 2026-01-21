@@ -1,3 +1,4 @@
+package BASICS;
 public class assignement {
     @SuppressWarnings("UnusedAssignment")
     public static void main(String[] args) {
