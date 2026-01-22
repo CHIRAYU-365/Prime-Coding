@@ -1,11 +1,11 @@
 package PATTERNS;
-public class pattern9 {
+public class pattern10 {
     public static void main(String[] args) {
         
         int n=5;
         int r=1;
-        int s=1;
-        int t=n-1;
+        int s=n*2-1;
+        int t=0;
 
         while (r<=n){
             int i=1;
@@ -19,8 +19,8 @@ public class pattern9 {
                 j++;
             }
             r++;
-            s+=2;
-            t--;
+            s-=2;
+            t++;
             System.out.println();
         } 
     
