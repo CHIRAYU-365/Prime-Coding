@@ -8,7 +8,7 @@ public class pattern6 {
             
             int j = 0;
             while (j < 2 * i) {
-                System.out.print(" _ ");
+                System.out.print("   ");
                 j++;
             }
             int k = 0;
