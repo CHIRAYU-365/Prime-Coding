@@ -12,7 +12,7 @@ package PATTERNS;
                 // Space 
                 int i =1;
                 while (i<=space) {
-                    System.out.print("\t");
+                    System.out.print("  ");
                     i++;
                 }
                 // Star
@@ -20,9 +20,9 @@ package PATTERNS;
                 
                 while (j<= star) {
                     if(val == n){
-                        System.out.print(0+"\t");
+                        System.out.print(0+" ");
                     }else {
-                        System.out.print(val+"\t");
+                        System.out.print(val+" ");
                     }
 
                     if(j<row){
