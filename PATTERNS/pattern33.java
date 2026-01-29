@@ -12,7 +12,7 @@ package PATTERNS;
                 // Space 
                 int i =1;
                 while (i<=space) {
-                    System.out.print("  ");
+                    System.out.print("  +");
                     i++;
                 }
                 // Star
