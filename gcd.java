@@ -1,7 +1,7 @@
 public class gcd {
     public static void main(String[] args) {
-        int a=36;
-        int b=60;
+        int a=104;
+        int b=840;
         int d=0;
         if (a>b){
             for(int i=1;i<=(b);i++){
