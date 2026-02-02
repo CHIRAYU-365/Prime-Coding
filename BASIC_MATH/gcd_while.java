@@ -1,3 +1,4 @@
+package BASIC_MATH;
 public class gcd_while {
     public static void main(String[] args) {
         int d1 =36 ;

@@ -1,3 +1,4 @@
+package BASIC_MATH;
 public class lcm{
     public static void main(String[] args) {
         int d1 =36 ;

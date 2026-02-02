@@ -1,3 +1,4 @@
+package BASIC_MATH;
 public class number_system{
     public static void main(String[] args) {
         int n= 39;
