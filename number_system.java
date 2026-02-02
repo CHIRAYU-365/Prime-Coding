@@ -1,6 +1,6 @@
 public class number_system{
     public static void main(String[] args) {
-        int n= 4;
+        int n= 39;
         int t = 0;
         int r =0;
         while (n>0){
