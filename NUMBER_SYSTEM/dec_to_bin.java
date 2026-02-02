@@ -1,14 +1,15 @@
-public class bin_to_dec {
+package NUMBER_SYSTEM;
+
+public class dec_to_bin{
     public static void main(String[] args) {
-        int n=11001;
-        int sum =0;
+        int n=25;
         int m=1;
+        int sum =0;
         while (n>0){
-            int r=n%10;
+            int r=n%2;
             sum = sum+r*m;
-            n/=10;
-            m*=2;
-            
+            n/=2;
+            m*=10;
         }
         System.out.println(sum);
     }
