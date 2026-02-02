@@ -1,8 +1,13 @@
 package NUMBER_SYSTEM;
 
+import java.util.Scanner;
+
 public class dec_to_bin{
     public static void main(String[] args) {
-        int n=25;
+        Scanner c = new Scanner(System.in);
+        System.out.print("decimal :");
+        int n = c.nextInt();
+        
         int m=1;
         int sum =0;
         while (n>0){
@@ -11,6 +16,6 @@ public class dec_to_bin{
             n/=2;
             m*=10;
         }
-        System.out.println(sum);
+        System.out.println("binary :"+sum);
     }
 }
