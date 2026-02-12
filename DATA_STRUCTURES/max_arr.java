@@ -1,3 +1,5 @@
+
+package DATA_STRUCTURES;
 public class max_arr {
     public static void main(String[] args) {
         int[] arr = new int[]{4,2,8,3,5,0};
